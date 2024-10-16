@@ -18,3 +18,16 @@ body {
 p {
   font-size: 20px;
 }
+
+ul {
+  font-size: 20px;
+}
+ 
+ol {
+  font-size: 20px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
