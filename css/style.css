@@ -8,23 +8,43 @@
   overflow-y: auto;
   background-color: #f4f4f4;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1)
-  font-size: 50px;
+}
+
+.sidenav h3 {
+ font-size: 20px;
+}
+
+.sidenav ul {
+ font-size: 18px;
+}
+
+.sidenav p {
+  font-size: 20px;
 }
 
 body {
   margin-left: 300px;
+  margin-right: 200px;
+}
+
+h1 {
+ font-size: 40px;
+}
+
+h2 {
+ font-size: 30px
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 ul {
-  font-size: 20px;
+  font-size: 25px;
 }
  
 ol {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .icon {
@@ -40,3 +60,5 @@ ol {
 .caption {
   font-size: 15px;
 }
+
+
