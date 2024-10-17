@@ -31,3 +31,12 @@ ol {
   width: 100px;
   height: 100px;
 }
+
+.icon-container {
+  display: flex;
+  gap: 10px;
+}
+
+.caption {
+  font-size: 15px;
+}
