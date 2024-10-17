@@ -1,3 +1,35 @@
+nav {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  width: 75%;
+  position: fixed;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", sans-serif;
+}
+
+nav li {
+  margin: 0 20px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Gill Sans", sans-serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 .sidenav {
   position: fixed;
   left: 0;
@@ -12,14 +44,17 @@
 
 .sidenav h3 {
  font-size: 20px;
+  font-family: "Gill Sans", sans-serif;
 }
 
 .sidenav ul {
  font-size: 18px;
+  font-family: "Gill Sans", sans-serif;
 }
 
 .sidenav p {
   font-size: 20px;
+  font-family: "Gill Sans", sans-serif;
 }
 
 body {
@@ -29,22 +64,32 @@ body {
 
 h1 {
  font-size: 40px;
+ font-family: Helvetica, sans-serif;
 }
 
 h2 {
- font-size: 30px
+ font-size: 30px;
+ font-family: Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
 }
 
 p {
   font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
 }
 
 ul {
   font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
 }
  
 ol {
   font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
 }
 
 .icon {
@@ -59,6 +104,7 @@ ol {
 
 .caption {
   font-size: 15px;
+  font-family: "Gill Sans", sans-serif;
 }
 
 
