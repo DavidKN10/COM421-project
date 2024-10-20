@@ -1,22 +1,26 @@
 nav {
   background-color: #f4f4f4;
+  text-align: center;
   padding: 20px 0;
-  width: 75%;
+  width: 65%;
   position: fixed;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
   justify-content: center;
   font-family: "Gill Sans", sans-serif;
 }
 
 nav li {
-  margin: 0 20px;
+  display: inline-block;
+  margin: 0 15px;
   font-family: "Gill Sans", sans-serif;
 }
 
@@ -24,6 +28,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   font-family: "Gill Sans", sans-serif;
+  font-size: 25px;
 }
 
 nav a:hover {
