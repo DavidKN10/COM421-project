@@ -1,38 +1,50 @@
-nav {
-  background-color: #f4f4f4;
-  text-align: center;
-  padding: 20px 0;
-  width: 65%;
+header {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+main {
+  position: relative;
+  top: 120px;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Gill Sans", sans-serif;
 }
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  text-align: center;
   justify-content: center;
-  font-family: "Gill Sans", sans-serif;
+  padding-left: 0px;
+  background-color: #f4f4f4;
+  padding: 5px 0px 5px 0px;
 }
 
-nav li {
+nav ul li {
   display: inline-block;
-  margin: 0 15px;
   font-family: "Gill Sans", sans-serif;
+  margin: 0 20px;
 }
 
 nav a {
-  text-decoration: none;
-  font-weight: bold;
   font-family: "Gill Sans", sans-serif;
-  font-size: 25px;
+  padding: .5em 1em;
 }
 
-nav a:hover {
-  text-decoration: underline;
+li.active a{
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 900;
+}
+
+ul li a:hover {
+  text-decoration: underline; 
 }
 
 .sidenav {
@@ -53,12 +65,12 @@ nav a:hover {
 }
 
 .sidenav ul {
- font-size: 18px;
+ font-size: 17px;
   font-family: "Gill Sans", sans-serif;
 }
 
 .sidenav p {
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Gill Sans", sans-serif;
 }
 
@@ -68,38 +80,38 @@ body {
 }
 
 h1 {
- font-size: 40px;
- font-family: Helvetica, sans-serif;
-}
-
-h2 {
  font-size: 30px;
  font-family: Helvetica, sans-serif;
 }
 
+h2 {
+ font-size: 25px;
+ font-family: Helvetica, sans-serif;
+}
+
 h3 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Gill Sans", sans-serif;
 }
 
 p {
-  font-size: 25px;
+  font-size: 17px;
   font-family: "Gill Sans", sans-serif;
 }
 
 ul {
-  font-size: 25px;
+  font-size: 17px;
   font-family: "Gill Sans", sans-serif;
 }
  
 ol {
-  font-size: 25px;
+  font-size: 17px;
   font-family: "Gill Sans", sans-serif;
 }
 
 .icon {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 
 .icon-container {
