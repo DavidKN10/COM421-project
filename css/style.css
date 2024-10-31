@@ -112,11 +112,13 @@ ol {
 .icon {
   width: 70px;
   height: 70px;
+  float: right;
 }
 
 .icon-container {
   display: flex;
   gap: 10px;
+  float: right;
 }
 
 .caption {
