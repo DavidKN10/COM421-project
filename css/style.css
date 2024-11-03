@@ -7,12 +7,13 @@ header {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  background-color: #cc0000;
 }
 
 main {
   position: relative;
-  top: 120px;
-  width: 720px;
+  top: 150px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   font-family: "Gill Sans", sans-serif;
@@ -23,8 +24,8 @@ nav ul {
   text-align: center;
   justify-content: center;
   padding-left: 0px;
-  background-color: #f4f4f4;
-  padding: 5px 0px 5px 0px;
+  background-color: #cccccc;
+  padding: 15px 0px 15px 0px;
 }
 
 nav ul li {
@@ -54,6 +55,7 @@ ul li a:hover {
   width: 250px;
   height: 100%;
   padding: 20px;
+  padding-top: 150px;
   overflow-y: auto;
   background-color: #f4f4f4;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1)
@@ -77,11 +79,13 @@ ul li a:hover {
 body {
   margin-left: 300px;
   margin-right: 200px;
+  background-color: #e6e6e6;
 }
 
 h1 {
  font-size: 30px;
  font-family: Helvetica, sans-serif;
+ color: white;
 }
 
 h2 {
@@ -130,4 +134,17 @@ ol {
   font-weight: bold;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #444444;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  color: white;
+}
 
