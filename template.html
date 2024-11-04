@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Template for Making New Pages</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <!--contains header, sidebar, arrow icons, and main content-->
+  <body>
+
+    <!--Header will have page name and sidebar-->
+    <header>
+      <h1>Page Title</h1>
+      <nav>
+        <ul>
+          <li>navigation bar links go here</li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--aside is for the sidebar-->
+    <!--aside can go anywhere inside the body element-->
+    <aside class="sidenav">
+      <h2>sidebar content</h2>
+    </aside>
+
+    <!--main is to add all the content-->
+    <main>
+      <h2>Headers</h2>
+      <p>content goes here</p>
+     
+      <!--images that will be utilized should be on the illustrations folder-->
+      <!--replace research2.jpg with the image you want to use-->
+      <h2>Image:</h2>
+      <img src="illustrations/research2.jpg" alt="">
+      <p class="caption">caption</p>
+
+      <!--ways to add lists-->
+      <ul>
+       <li>unordered list</li>
+       <li>nested
+         <ul>
+          <li>unordered list</li>
+         </ul>
+       </li>
+      </ul>
+
+      <ol>
+        <li>ordered</li>
+        <li>list</li>
+      </ol>
+
+      <!--this div is for the left and right arrow icons-->
+      <!--first h3 tag is for the left arrow, 
+        second h3 tag is for the right-->
+      <!--replace template.html with the page you want
+        the arrows to bring you to-->
+      <div class="icon-container"> 
+        <h3><a href="template.html"><img src="icons/arrow_left.gif" 
+          alt="left arrow icon" class="icon"></a></h3>
+        <h3><a href="template.html"><img src="icons/arrow_right.gif" 
+          alt="right arrow icon" class="icon"></a></h3>
+      </div>
+
+
+        <!--used to add page numbers (example: Page 1 of 10)-->
+      <h3>Page #</h3>
+    </main>
+  </body>
+
+</html>
